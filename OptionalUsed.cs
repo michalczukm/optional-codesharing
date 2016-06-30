@@ -17,6 +17,21 @@ namespace CodeSharing
             }
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         public void DontDoThisExample()
         {
             Optional<Client> clientOptional = GetCurrentClient();
@@ -24,6 +39,19 @@ namespace CodeSharing
             // if value is absent - you'll get InvalidOperationException
             Client client = clientOptional.Value;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         public Optional<Client> GetCurrentClient()
         {
